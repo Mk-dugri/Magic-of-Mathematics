@@ -1,6 +1,6 @@
 # Magic-of-Mathematics
 <p>Home Page
-The home page of Math Solver serves as the gateway to the platform, offering a welcoming introduction and overview of its key features. It provides a brief summary of the website's mission to simplify math learning for users of all levels. The page typically includes:
+The home page of Magic-of-Mathematics serves as the gateway to the platform, offering a welcoming introduction and overview of its key features. It provides a brief summary of the website's mission to simplify math learning for users of all levels. The page typically includes:
 
 Introduction: A concise statement highlighting the website's purpose and its commitment to making math accessible and enjoyable.
 Navigation Bar: Allows users to easily explore different sections of the website, including topics, practice exercises, resources, forums, and contact information.
