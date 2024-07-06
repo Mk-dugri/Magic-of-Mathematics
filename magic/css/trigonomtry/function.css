@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    position:sticky;
+    top: 0;
+    z-index: 2;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.defination-container{
+    margin: 0 10% 0 10%;
+    .define{
+    color: rgba(10, 10, 100, 0.8);
+    font-size: 20px;  
+}  
+}
+/* Content Section Styles */
+.content {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #50b3a2;
+}
+
+.function-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.function-item {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.function-item:hover {
+    transform: translateY(-5px);
+}
+
+.function-item h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.function-item p {
+    margin: 15px 0;
+}
+
+.function-item strong {
+    color: #50b3a2;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.image{
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 20px;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    td{
+        width: 200px;
+    }
+
+}
+.table:hover {
+    transform: translateY(-5px);
+}

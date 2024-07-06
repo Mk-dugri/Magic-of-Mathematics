@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic of mathematics - Measures of Central Tendency</title>
+    <link rel="stylesheet" href="/css/statistics/measure.css">
+    <style>
+        .formula {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .formula code {
+            color: #50b3a2;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Magic of mathematics</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="#">Practice</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="central-tendency">
+        <div class="container">
+            <h1>Measures of Central Tendency</h1>
+            <div class="content">
+                <p>Measures of central tendency are statistical measures that describe the center or typical value of a
+                    dataset. Here are the main measures of central tendency along with their formulas:</p>
+
+                <h2>Mean (Arithmetic Average)</h2>
+                <p>The mean is the sum of all the values in a dataset divided by the number of values. It is calculated
+                    using the formula:</p>
+                <div class="formula">
+                    <h3 style="text-align: center; color: rgb(118, 196, 196);">Mean of Ungrouped Data</h3>
+                    <!-- <h4 style="text-align: left;">Mean Formula for Ungrouped Data</h4> -->
+                    <math  display="block"><semantics><mrow><mtext>Mean</mtext><mo>=</mo><mfrac><mrow><mo>∑</mo><mi>x</mi></mrow><mi>n</mi></mfrac></mrow><annotation encoding="application/x-tex">\text{Mean} = \frac{\sum x}{n} 
+                    </annotation></semantics></math>
+                    <!-- <h4 style="text-align: left;">Mode Formula for grouped Data</h4> -->
+                    <h3 style="text-align: center; color: rgb(118, 196, 196);">Mean of Grouped Data</h3>
+                    <math  display="block">
+                        <semantics>
+                            <mrow>
+                                <mover accent="true">
+                                    <mi>x</mi>
+                                    <mo>ˉ</mo>
+                                </mover>
+                                <mo>=</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mo>∑</mo>
+                                        <mo stretchy="false">(</mo>
+                                        <mi>x</mi>
+                                        <mo>⋅</mo>
+                                        <mi>f</mi>
+                                        <mo stretchy="false">)</mo>
+                                    </mrow>
+                                    <mrow>
+                                        <mo>∑</mo>
+                                        <mi>f</mi>
+                                    </mrow>
+                                </mfrac>
+                            </mrow>
+                            <annotation encoding="application/x-tex">\bar{x} = \frac{\sum (x \cdot f)}{\sum f}
+                            </annotation>
+                        </semantics>
+                    </math>
+                </div>
+
+
+
+
+                <h2 style="text-align: left;">Median</h2>
+                <p>The median is the middle value when a dataset is ordered from least to greatest. For an odd
+                    number of values, the median is the middle value. For an even number of values, the median is
+                    the average of the two middle values. The formulas are:</p>
+                <div class="formula">
+                    <h3 style="text-align: center; color: rgb(118, 196, 196);">Median of Ungrouped Data</h3>
+                    If there's an odd number of observations, the median is the middle value.
+                    <br>
+                    <br>
+                    <math  display="block" semantics>
+                        <mrow>
+                            <mtext>Median</mtext>
+                            <mo>=</mo>
+                            <mrow>
+                                <mo fence="true">(</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <mi>n</mi>
+                                        <mo>+</mo>
+                                        <mn>1</mn>
+                                    </mrow>
+                                    <mn>2</mn>
+                                </mfrac>
+                                <mo fence="true">)</mo>
+                            </mrow>
+                            <mtext>th&nbsp;term</mtext>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> \text{Median} = \left(\frac{n + 1}{2}\right)\text{th}
+                            \text{ term} </annotation>
+                        </semantics>
+                    </math>
+                    <br>
+                    If there's an even number of observations, take the average of the two middle values.
+                    <br><br>
+                    <math  display="block" semantics>
+                        <mrow>
+                            <mtext>Median</mtext>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mrow>
+                                        <mo fence="true">(</mo>
+                                        <mfrac>
+                                            <mi>n</mi>
+                                            <mn>2</mn>
+                                        </mfrac>
+                                        <mo fence="true">)</mo>
+                                    </mrow>
+                                    <mtext>th&nbsp;term</mtext>
+                                    <mo>+</mo>
+                                    <mrow>
+                                        <mo fence="true">(</mo>
+                                        <mfrac>
+                                            <mi>n</mi>
+                                            <mn>2</mn>
+                                        </mfrac>
+                                        <mo>+</mo>
+                                        <mn>1</mn>
+                                        <mo fence="true">)</mo>
+                                    </mrow>
+                                    <mtext>th&nbsp;term</mtext>
+                                </mrow>
+                                <mn>2</mn>
+                            </mfrac>
+                        </mrow>
+                        <annotation encoding="application/x-tex"> \text{Median} = \frac{\left(\frac{n}{2}\right)\text{th
+                            term} + \left(\frac{n}{2} + 1\right)\text{th term}}{2} </annotation>
+                        </semantics>
+                    </math>
+                    <h3 style="text-align: center; color: rgb(118, 196, 196);">Median of Grouped Data</h3>
+                    <div class="about" style="display: flex; align-items: center; justify-content: center;">
+                        <div class="about-cont" style="text-align: justify;">
+                            <ul>
+                                <li>(l): Lower limit of the median class</li>
+                                <li>(n): Total number of observations</li>
+                                <li>(f): Frequency of the median class</li>
+                                <li>(h): Class size (upper limit - lower limit)</li>
+                                <li>(cf): Cumulative frequency of the class preceding the median class</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <h2 style="text-align: left;">Mode</h2>
+                <p>The mode is the most frequently occurring value(s) in a dataset. There can be more than one mode
+                    in a dataset, or no mode at all.</p>
+                <div class="formula">
+                    <!-- <h4 style="text-align: left;">Mode Formula for Ungrouped Data</h4> -->
+                    <h3 style="text-align: center; color: rgb(118, 196, 196);">Mode for Ungrouped Data</h3>
+                    Mode = The most frequently occurred value in the data set
+                    <h3 style="text-align: center; color: rgb(118, 196, 196);">Mode for grouped Data</h3>
+                    <math  display="block">
+                        <semantics>
+                            <mrow>
+                                <mtext>Mode</mtext>
+                                <mo>=</mo>
+                                <mi>l</mi>
+                                <mo>+</mo>
+                                <mfrac>
+                                    <mrow>
+                                        <msub>
+                                            <mi>f</mi>
+                                            <mn>1</mn>
+                                        </msub>
+                                        <mo>−</mo>
+                                        <msub>
+                                            <mi>f</mi>
+                                            <mn>0</mn>
+                                        </msub>
+                                    </mrow>
+                                    <mrow>
+                                        <mn>2</mn>
+                                        <msub>
+                                            <mi>f</mi>
+                                            <mn>1</mn>
+                                        </msub>
+                                        <mo>−</mo>
+                                        <msub>
+                                            <mi>f</mi>
+                                            <mn>0</mn>
+                                        </msub>
+                                        <mo>-</mo>
+                                        <msub>
+                                            <mi>f</mi>
+                                            <mn>2</mn>
+                                        </msub>
+                                    </mrow>
+                                </mfrac>
+                                <mo>×</mo>
+                                <mi>h</mi>
+                            </mrow>
+                            <annotation encoding="application/x-tex">\text{Mode} = l + \frac{{f_1 - f_0}}{{2f_1 - f_0 -
+                                f_2}} \times h
+                            </annotation>
+                        </semantics>
+                    </math>
+                    <div class="about" style="display: flex; align-items: center; justify-content: center;">
+                        <div class="about-cont" style="text-align: justify;">
+                            <ul>
+                                <li>(l): Lower limit of the modal class</li>
+                                <li>(h): Size of the class interval (assuming equal class sizes)</li>
+                                <li>(f_1): Frequency of the modal class</li>
+                                <li>(f_0): Frequency of the class preceding the modal class</li>
+                                <li>(f_2): Frequency of the class succeeding the modal class</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Magic of mathematics. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic of mathematics - Probability</title>
+    <link rel="stylesheet" href="/css/statistics/probability.css">
+    <style>
+        .formula {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .formula code {
+            color: #50b3a2;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Magic of mathematics</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="#">Practice</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="probability">
+        <div class="container">
+            <h2>Probability</h2>
+            <div class="content">
+                <p>Probability is a measure of the likelihood that an event will occur. It quantifies uncertainty and
+                    helps in making predictions about random events. Here are some key concepts and formulas related to
+                    probability:</p>
+
+                <h3>Basic Concepts</h3>
+                <ul>
+                    <li><strong>Experiment:</strong> A process that leads to the occurrence of one and only one of
+                        several possible observations.</li>
+                    <li><strong>Sample Space:</strong> The set of all possible outcomes of an experiment.</li>
+                    <li><strong>Event:</strong> A subset of the sample space. It can be one outcome or a group of
+                        outcomes.</li>
+                    <li><strong>Probability of an Event:</strong> The measure of how likely an event is to occur,
+                        calculated as the number of favorable outcomes divided by the total number of possible outcomes.
+                    </li>
+                </ul>
+
+                <h3>Probability Formulas</h3>
+
+                <div class="formula">
+                    <h3>1. Probability of an Event <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A)</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mclose">)</span></span></span></span></h3>
+                    <p>The probability of an event <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span> occurring is given by the
+                        ratio of the number of favorable outcomes to the total number of possible outcomes.</p>
+                    <p><span class="katex"><span class="katex-mathml">
+                        <math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>=</mo>
+                                            <mfrac>
+                                                <mrow>
+                                                    <mtext>Number&nbsp;of&nbsp;favorable&nbsp;outcomes&nbsp;for&nbsp;
+                                                    </mtext>
+                                                    <mi>A</mi>
+                                                </mrow>
+                                                <mtext>Total&nbsp;number&nbsp;of&nbsp;possible&nbsp;outcomes</mtext>
+                                            </mfrac>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A) = \frac{\text{Number of favorable
+                                            outcomes for } A}{\text{Total number of possible outcomes}}</annotation>
+                                    </semantics> <br><br>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                        class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1.3612em; vertical-align: -0.4811em;"></span><span
+                                        class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 0.8801em;"><span style="top: -2.655em;"><span
+                                                                class="pstrut" style="height: 3em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord text mtight"><span
+                                                                            class="mord mtight">Total&nbsp;number&nbsp;of&nbsp;possible&nbsp;outcomes</span></span></span></span></span><span
+                                                            style="top: -3.23em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span class="frac-line"
+                                                                style="border-bottom-width: 0.04em;"></span></span><span
+                                                            style="top: -3.394em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord text mtight"><span
+                                                                            class="mord mtight">Number&nbsp;of&nbsp;favorable&nbsp;outcomes&nbsp;for&nbsp;</span></span><span
+                                                                        class="mord mathnormal mtight">A</span></span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.4811em;"><span></span></span></span></span></span><span
+                                            class="mclose nulldelimiter"></span></span></span></span></span></p>
+                    <h3>2. Probability of the Complement <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mover accent="true">
+                                                <mi>A</mi>
+                                                <mo>ˉ</mo>
+                                            </mover>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(\bar{A})</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1.0701em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord accent"><span class="vlist-t"><span
+                                                class="vlist-r"><span class="vlist" style="height: 0.8201em;"><span
+                                                        style="top: -3em;"><span class="pstrut"
+                                                            style="height: 3em;"></span><span
+                                                            class="mord mathnormal">A</span></span><span
+                                                        style="top: -3.2523em;"><span class="pstrut"
+                                                            style="height: 3em;"></span><span class="accent-body"
+                                                            style="left: -0.1111em;"><span
+                                                                class="mord">ˉ</span></span></span></span></span></span></span><span
+                                        class="mclose">)</span></span></span></span></h3>
+                    <p>The probability of the complement of event <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span> (not <span
+                            class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span>) occurring is:</p>
+                    <p><span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mover accent="true">
+                                                <mi>A</mi>
+                                                <mo>ˉ</mo>
+                                            </mover>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>=</mo>
+                                            <mn>1</mn>
+                                            <mo>−</mo>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(\bar{A}) = 1 - P(A)</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1.0701em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord accent"><span class="vlist-t"><span
+                                                class="vlist-r"><span class="vlist" style="height: 0.8201em;"><span
+                                                        style="top: -3em;"><span class="pstrut"
+                                                            style="height: 3em;"></span><span
+                                                            class="mord mathnormal">A</span></span><span
+                                                        style="top: -3.2523em;"><span class="pstrut"
+                                                            style="height: 3em;"></span><span class="accent-body"
+                                                            style="left: -0.1111em;"><span
+                                                                class="mord">ˉ</span></span></span></span></span></span></span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                        class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 0.7278em; vertical-align: -0.0833em;"></span><span
+                                        class="mord">1</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">−</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mclose">)</span></span></span></span></p>
+                    <h3>3. Probability of Joint Events (Intersection) <span class="katex"><span
+                                class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo>∩</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A \cap B)</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">∩</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span></span></span></span></h3>
+                    <p>The probability that both events <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span> and <span
+                            class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>B</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">B</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span></span></span></span> occur is:</p>
+                    <p><span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo>∩</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A \cap B)</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">∩</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span></span></span></span></p>
+                    <p>If <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span> and <span
+                            class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>B</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">B</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span></span></span></span> are independent
+                        events:</p>
+                    <p><span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo>∩</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>=</mo>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>×</mo>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A \cap B) = P(A) \times P(B)
+                                        </annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">∩</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                        class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">×</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span></span></span></span></p>
+                    <h3>4. Probability of Union of Events <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo>∪</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A \cup B)</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">∪</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span></span></span></span></h3>
+                    <p>The probability that either event <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span> or event <span
+                            class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>B</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">B</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span></span></span></span> (or both) occurs
+                        is:</p>
+                    <p><span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo>∪</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>=</mo>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>+</mo>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>−</mo>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo>∩</mo>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A \cup B) = P(A) + P(B) - P(A \cap B)
+                                        </annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">∪</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                        class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">+</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span><span class="mclose">)</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span><span
+                                        class="mbin">−</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span></span><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">∩</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span></span></span></span></p>
+                    <h3>5. Conditional Probability <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mi mathvariant="normal">∣</mi>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A | B)</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mord">∣</span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span><span
+                                        class="mclose">)</span></span></span></span></h3>
+                    <p>The probability of event <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span> occurring given that event
+                        <span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>B</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">B</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span></span></span></span> has occurred is:
+                    </p>
+                    <p><span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mi mathvariant="normal">∣</mi>
+                                            <mi>B</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>=</mo>
+                                            <mfrac>
+                                                <mrow>
+                                                    <mi>P</mi>
+                                                    <mo stretchy="false">(</mo>
+                                                    <mi>A</mi>
+                                                    <mo>∩</mo>
+                                                    <mi>B</mi>
+                                                    <mo stretchy="false">)</mo>
+                                                </mrow>
+                                                <mrow>
+                                                    <mi>P</mi>
+                                                    <mo stretchy="false">(</mo>
+                                                    <mi>B</mi>
+                                                    <mo stretchy="false">)</mo>
+                                                </mrow>
+                                            </mfrac>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A | B) = \frac{P(A \cap B)}{P(B)}
+                                        </annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mord">∣</span><span class="mord mathnormal"
+                                        style="margin-right: 0.05017em;">B</span><span class="mclose">)</span><span
+                                        class="mspace" style="margin-right: 0.2778em;"></span><span
+                                        class="mrel">=</span><span class="mspace"
+                                        style="margin-right: 0.2778em;"></span></span><span class="base"><span
+                                        class="strut" style="height: 1.53em; vertical-align: -0.52em;"></span><span
+                                        class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 1.01em;"><span style="top: -2.655em;"><span
+                                                                class="pstrut" style="height: 3em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.13889em;">P</span><span
+                                                                        class="mopen mtight">(</span><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.05017em;">B</span><span
+                                                                        class="mclose mtight">)</span></span></span></span><span
+                                                            style="top: -3.23em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span class="frac-line"
+                                                                style="border-bottom-width: 0.04em;"></span></span><span
+                                                            style="top: -3.485em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.13889em;">P</span><span
+                                                                        class="mopen mtight">(</span><span
+                                                                        class="mord mathnormal mtight">A</span><span
+                                                                        class="mbin mtight">∩</span><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.05017em;">B</span><span
+                                                                        class="mclose mtight">)</span></span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.52em;"><span></span></span></span></span></span><span
+                                            class="mclose nulldelimiter"></span></span></span></span></span></p>
+                    <h3>6. Total Probability Theorem</h3>
+                    <p>If <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <msub>
+                                                <mi>B</mi>
+                                                <mn>1</mn>
+                                            </msub>
+                                            <mo separator="true">,</mo>
+                                            <msub>
+                                                <mi>B</mi>
+                                                <mn>2</mn>
+                                            </msub>
+                                            <mo separator="true">,</mo>
+                                            <mo>…</mo>
+                                            <mo separator="true">,</mo>
+                                            <msub>
+                                                <mi>B</mi>
+                                                <mi>n</mi>
+                                            </msub>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">B_1, B_2, \ldots, B_n</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.8778em; vertical-align: -0.1944em;"></span><span
+                                        class="mord"><span class="mord mathnormal"
+                                            style="margin-right: 0.05017em;">B</span><span class="msupsub"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 0.3011em;"><span
+                                                            style="top: -2.55em; margin-left: -0.0502em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight">1</span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.15em;"><span></span></span></span></span></span></span><span
+                                        class="mpunct">,</span><span class="mspace"
+                                        style="margin-right: 0.1667em;"></span><span class="mord"><span
+                                            class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                            class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span
+                                                        class="vlist" style="height: 0.3011em;"><span
+                                                            style="top: -2.55em; margin-left: -0.0502em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight">2</span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.15em;"><span></span></span></span></span></span></span><span
+                                        class="mpunct">,</span><span class="mspace"
+                                        style="margin-right: 0.1667em;"></span><span class="minner">…</span><span
+                                        class="mspace" style="margin-right: 0.1667em;"></span><span
+                                        class="mpunct">,</span><span class="mspace"
+                                        style="margin-right: 0.1667em;"></span><span class="mord"><span
+                                            class="mord mathnormal" style="margin-right: 0.05017em;">B</span><span
+                                            class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span
+                                                        class="vlist" style="height: 0.1514em;"><span
+                                                            style="top: -2.55em; margin-left: -0.0502em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mathnormal mtight">n</span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.15em;"><span></span></span></span></span></span></span></span></span></span>
+                        are mutually exclusive and exhaustive events (i.e., they cover all possibilities and do not
+                        overlap), then for any event <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>A</mi>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">A</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.6833em;"></span><span
+                                        class="mord mathnormal">A</span></span></span></span>:</p>
+                    <p><span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>=</mo>
+                                            <msubsup>
+                                                <mo>∑</mo>
+                                                <mrow>
+                                                    <mi>i</mi>
+                                                    <mo>=</mo>
+                                                    <mn>1</mn>
+                                                </mrow>
+                                                <mi>n</mi>
+                                            </msubsup>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <mi>A</mi>
+                                            <mi mathvariant="normal">∣</mi>
+                                            <msub>
+                                                <mi>B</mi>
+                                                <mi>i</mi>
+                                            </msub>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>×</mo>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <msub>
+                                                <mi>B</mi>
+                                                <mi>i</mi>
+                                            </msub>
+                                            <mo stretchy="false">)</mo>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(A) = \sum_{i=1}^{n} P(A | B_i) \times
+                                            P(B_i)</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                        class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1.104em; vertical-align: -0.2997em;"></span><span
+                                        class="mop"><span class="mop op-symbol small-op"
+                                            style="position: relative; top: 0em;">∑</span><span class="msupsub"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 0.8043em;"><span
+                                                            style="top: -2.4003em; margin-left: 0em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight">i</span><span
+                                                                        class="mrel mtight">=</span><span
+                                                                        class="mord mtight">1</span></span></span></span><span
+                                                            style="top: -3.2029em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight">n</span></span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.2997em;"><span></span></span></span></span></span></span><span
+                                        class="mspace" style="margin-right: 0.1667em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord mathnormal">A</span><span
+                                        class="mord">∣</span><span class="mord"><span class="mord mathnormal"
+                                            style="margin-right: 0.05017em;">B</span><span class="msupsub"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 0.3117em;"><span
+                                                            style="top: -2.55em; margin-left: -0.0502em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mathnormal mtight">i</span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.15em;"><span></span></span></span></span></span></span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2222em;"></span><span class="mbin">×</span><span
+                                        class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord"><span class="mord mathnormal"
+                                            style="margin-right: 0.05017em;">B</span><span class="msupsub"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 0.3117em;"><span
+                                                            style="top: -2.55em; margin-left: -0.0502em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mathnormal mtight">i</span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.15em;"><span></span></span></span></span></span></span><span
+                                        class="mclose">)</span></span></span></span></p>
+                    <h3>7. Bayes' Theorem</h3>
+                    <p>Bayes' theorem relates the conditional and marginal probabilities of two events.</p>
+                    <p><span class="katex"><span class="katex-mathml"><math >
+                                    <semantics>
+                                        <mrow>
+                                            <mi>P</mi>
+                                            <mo stretchy="false">(</mo>
+                                            <msub>
+                                                <mi>B</mi>
+                                                <mi>i</mi>
+                                            </msub>
+                                            <mi mathvariant="normal">∣</mi>
+                                            <mi>A</mi>
+                                            <mo stretchy="false">)</mo>
+                                            <mo>=</mo>
+                                            <mfrac>
+                                                <mrow>
+                                                    <mi>P</mi>
+                                                    <mo stretchy="false">(</mo>
+                                                    <mi>A</mi>
+                                                    <mi mathvariant="normal">∣</mi>
+                                                    <msub>
+                                                        <mi>B</mi>
+                                                        <mi>i</mi>
+                                                    </msub>
+                                                    <mo stretchy="false">)</mo>
+                                                    <mo>×</mo>
+                                                    <mi>P</mi>
+                                                    <mo stretchy="false">(</mo>
+                                                    <msub>
+                                                        <mi>B</mi>
+                                                        <mi>i</mi>
+                                                    </msub>
+                                                    <mo stretchy="false">)</mo>
+                                                </mrow>
+                                                <mrow>
+                                                    <msubsup>
+                                                        <mo>∑</mo>
+                                                        <mrow>
+                                                            <mi>j</mi>
+                                                            <mo>=</mo>
+                                                            <mn>1</mn>
+                                                        </mrow>
+                                                        <mi>n</mi>
+                                                    </msubsup>
+                                                    <mi>P</mi>
+                                                    <mo stretchy="false">(</mo>
+                                                    <mi>A</mi>
+                                                    <mi mathvariant="normal">∣</mi>
+                                                    <msub>
+                                                        <mi>B</mi>
+                                                        <mi>j</mi>
+                                                    </msub>
+                                                    <mo stretchy="false">)</mo>
+                                                    <mo>×</mo>
+                                                    <mi>P</mi>
+                                                    <mo stretchy="false">(</mo>
+                                                    <msub>
+                                                        <mi>B</mi>
+                                                        <mi>j</mi>
+                                                    </msub>
+                                                    <mo stretchy="false">)</mo>
+                                                </mrow>
+                                            </mfrac>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">P(B_i | A) = \frac{P(A | B_i) \times
+                                            P(B_i)}{\sum_{j=1}^{n} P(A | B_j) \times P(B_j)}</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span
+                                        class="mord mathnormal" style="margin-right: 0.13889em;">P</span><span
+                                        class="mopen">(</span><span class="mord"><span class="mord mathnormal"
+                                            style="margin-right: 0.05017em;">B</span><span class="msupsub"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 0.3117em;"><span
+                                                            style="top: -2.55em; margin-left: -0.0502em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mathnormal mtight">i</span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.15em;"><span></span></span></span></span></span></span><span
+                                        class="mord">∣</span><span class="mord mathnormal">A</span><span
+                                        class="mclose">)</span><span class="mspace"
+                                        style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                        class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                    class="base"><span class="strut"
+                                        style="height: 1.6772em; vertical-align: -0.6672em;"></span><span
+                                        class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 1.01em;"><span style="top: -2.655em;"><span
+                                                                class="pstrut" style="height: 3em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span class="mop mtight"><span
+                                                                            class="mop op-symbol small-op mtight"
+                                                                            style="position: relative; top: 0em;">∑</span><span
+                                                                            class="msupsub"><span
+                                                                                class="vlist-t vlist-t2"><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.7047em;"><span
+                                                                                            style="top: -2.1786em; margin-left: 0em; margin-right: 0.0714em;"><span
+                                                                                                class="pstrut"
+                                                                                                style="height: 2.5em;"></span><span
+                                                                                                class="sizing reset-size3 size1 mtight"><span
+                                                                                                    class="mord mtight"><span
+                                                                                                        class="mord mathnormal mtight"
+                                                                                                        style="margin-right: 0.05724em;">j</span><span
+                                                                                                        class="mrel mtight">=</span><span
+                                                                                                        class="mord mtight">1</span></span></span></span><span
+                                                                                            style="top: -2.8971em; margin-right: 0.0714em;"><span
+                                                                                                class="pstrut"
+                                                                                                style="height: 2.5em;"></span><span
+                                                                                                class="sizing reset-size3 size1 mtight"><span
+                                                                                                    class="mord mtight"><span
+                                                                                                        class="mord mathnormal mtight">n</span></span></span></span></span><span
+                                                                                        class="vlist-s">​</span></span><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.4603em;"><span></span></span></span></span></span></span><span
+                                                                        class="mspace mtight"
+                                                                        style="margin-right: 0.1952em;"></span><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.13889em;">P</span><span
+                                                                        class="mopen mtight">(</span><span
+                                                                        class="mord mathnormal mtight">A</span><span
+                                                                        class="mord mtight">∣</span><span
+                                                                        class="mord mtight"><span
+                                                                            class="mord mathnormal mtight"
+                                                                            style="margin-right: 0.05017em;">B</span><span
+                                                                            class="msupsub"><span
+                                                                                class="vlist-t vlist-t2"><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.3281em;"><span
+                                                                                            style="top: -2.357em; margin-left: -0.0502em; margin-right: 0.0714em;"><span
+                                                                                                class="pstrut"
+                                                                                                style="height: 2.5em;"></span><span
+                                                                                                class="sizing reset-size3 size1 mtight"><span
+                                                                                                    class="mord mathnormal mtight"
+                                                                                                    style="margin-right: 0.05724em;">j</span></span></span></span><span
+                                                                                        class="vlist-s">​</span></span><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.2819em;"><span></span></span></span></span></span></span><span
+                                                                        class="mclose mtight">)</span><span
+                                                                        class="mbin mtight">×</span><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.13889em;">P</span><span
+                                                                        class="mopen mtight">(</span><span
+                                                                        class="mord mtight"><span
+                                                                            class="mord mathnormal mtight"
+                                                                            style="margin-right: 0.05017em;">B</span><span
+                                                                            class="msupsub"><span
+                                                                                class="vlist-t vlist-t2"><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.3281em;"><span
+                                                                                            style="top: -2.357em; margin-left: -0.0502em; margin-right: 0.0714em;"><span
+                                                                                                class="pstrut"
+                                                                                                style="height: 2.5em;"></span><span
+                                                                                                class="sizing reset-size3 size1 mtight"><span
+                                                                                                    class="mord mathnormal mtight"
+                                                                                                    style="margin-right: 0.05724em;">j</span></span></span></span><span
+                                                                                        class="vlist-s">​</span></span><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.2819em;"><span></span></span></span></span></span></span><span
+                                                                        class="mclose mtight">)</span></span></span></span><span
+                                                            style="top: -3.23em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span class="frac-line"
+                                                                style="border-bottom-width: 0.04em;"></span></span><span
+                                                            style="top: -3.485em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.13889em;">P</span><span
+                                                                        class="mopen mtight">(</span><span
+                                                                        class="mord mathnormal mtight">A</span><span
+                                                                        class="mord mtight">∣</span><span
+                                                                        class="mord mtight"><span
+                                                                            class="mord mathnormal mtight"
+                                                                            style="margin-right: 0.05017em;">B</span><span
+                                                                            class="msupsub"><span
+                                                                                class="vlist-t vlist-t2"><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.3281em;"><span
+                                                                                            style="top: -2.357em; margin-left: -0.0502em; margin-right: 0.0714em;"><span
+                                                                                                class="pstrut"
+                                                                                                style="height: 2.5em;"></span><span
+                                                                                                class="sizing reset-size3 size1 mtight"><span
+                                                                                                    class="mord mathnormal mtight">i</span></span></span></span><span
+                                                                                        class="vlist-s">​</span></span><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.143em;"><span></span></span></span></span></span></span><span
+                                                                        class="mclose mtight">)</span><span
+                                                                        class="mbin mtight">×</span><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.13889em;">P</span><span
+                                                                        class="mopen mtight">(</span><span
+                                                                        class="mord mtight"><span
+                                                                            class="mord mathnormal mtight"
+                                                                            style="margin-right: 0.05017em;">B</span><span
+                                                                            class="msupsub"><span
+                                                                                class="vlist-t vlist-t2"><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.3281em;"><span
+                                                                                            style="top: -2.357em; margin-left: -0.0502em; margin-right: 0.0714em;"><span
+                                                                                                class="pstrut"
+                                                                                                style="height: 2.5em;"></span><span
+                                                                                                class="sizing reset-size3 size1 mtight"><span
+                                                                                                    class="mord mathnormal mtight">i</span></span></span></span><span
+                                                                                        class="vlist-s">​</span></span><span
+                                                                                    class="vlist-r"><span class="vlist"
+                                                                                        style="height: 0.143em;"><span></span></span></span></span></span></span><span
+                                                                        class="mclose mtight">)</span></span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.6672em;"><span></span></span></span></span></span><span
+                                            class="mclose nulldelimiter"></span></span></span></span></span></p>
+                    <p>where <span class="katex"><span class="katex-mathml"><math
+                                    >
+                                    <semantics>
+                                        <mrow>
+                                            <msub>
+                                                <mi>B</mi>
+                                                <mi>i</mi>
+                                            </msub>
+                                        </mrow>
+                                        <annotation encoding="application/x-tex">B_i</annotation>
+                                    </semantics>
+                                </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                        class="strut" style="height: 0.8333em; vertical-align: -0.15em;"></span><span
+                                        class="mord"><span class="mord mathnormal"
+                                            style="margin-right: 0.05017em;">B</span><span class="msupsub"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 0.3117em;"><span
+                                                            style="top: -2.55em; margin-left: -0.0502em; margin-right: 0.05em;"><span
+                                                                class="pstrut" style="height: 2.7em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mathnormal mtight">i</span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 0.15em;"><span></span></span></span></span></span></span></span></span></span>
+                        are mutually exclusive and exhaustive events.</p>
+                </div>
+            </div>
+        </div>
+    
+
+            <h3>Probability Rules</h3>
+            <ul>
+                <li><strong>Addition Rule:</strong> The probability that one or more events will occur is the sum of
+                    their individual probabilities, minus the probability of their intersection.</li>
+                <li><strong>Multiplication Rule:</strong> The probability of the intersection of two independent events
+                    is the product of their individual probabilities.</li>
+            </ul>
+
+            <h3>Types of Probability</h3>
+            <ul>
+                <li><strong>Theoretical Probability:</strong> Based on reasoning or calculation.</li>
+                <li><strong>Experimental Probability:</strong> Based on observations from an experiment.</li>
+                <li><strong>Subjective Probability:</strong> Based on intuition, educated guesses, and estimates.</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Magic of mathematics. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

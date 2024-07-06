@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Solver - Measures of Variability</title>
+    <link rel="stylesheet" href="/css/statistics/measureofV.css">
+    <style>
+        .formula {
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .formula code {
+            color: #50b3a2;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Math Solver</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="topics.html">Topics</a></li>
+                    <li><a href="#">Practice</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Forum</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="variability">
+        <div class="container">
+            <h2>Measures of Variability</h2>
+            <div class="content">
+                <p>Measures of variability (dispersion) quantify the spread or dispersion of a dataset around its
+                    center. Here are some key measures of variability along with their formulas:</p>
+
+                <ol>
+                    <li>
+                        <p><strong>Range</strong>: The difference between the maximum and minimum values in a dataset.
+                        </p><span class="katex-display" ><span class="katex"><span class="katex-mathml"><math
+                                         display="block">
+                                        <semantics>
+                                            <mrow>
+                                                <mtext>Range</mtext>
+                                                <mo>=</mo>
+                                                <mtext>Max</mtext>
+                                                <mo>−</mo>
+                                                <mtext>Min</mtext>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\text{Range} = \text{Max} -
+                                                \text{Min}</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.8778em; vertical-align: -0.1944em;"></span><span
+                                            class="mord text"><span class="mord">Range</span></span><span class="mspace"
+                                            style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                            class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                        class="base"><span class="strut"
+                                            style="height: 0.7667em; vertical-align: -0.0833em;"></span><span
+                                            class="mord text"><span class="mord">Max</span></span><span class="mspace"
+                                            style="margin-right: 0.2222em;"></span><span class="mbin">−</span><span
+                                            class="mspace" style="margin-right: 0.2222em;"></span></span><span
+                                        class="base"><span class="strut" style="height: 0.6833em;"></span><span
+                                            class="mord text"><span
+                                                class="mord">Min</span></span></span></span></span></span>
+                    </li>
+                    <li>
+                        <p><strong>Variance</strong>: The average of the squared differences from the mean.</p><span
+                            class="katex-display" ><span class="katex"><span class="katex-mathml"><math
+                                         display="block">
+                                        <semantics>
+                                            <mrow>
+                                                <mtext>Population&nbsp;Variance</mtext>
+                                                <mo>=</mo>
+                                                <mfrac>
+                                                    <mn>1</mn>
+                                                    <mi>N</mi>
+                                                </mfrac>
+                                                <munderover>
+                                                    <mo>∑</mo>
+                                                    <mrow>
+                                                        <mi>i</mi>
+                                                        <mo>=</mo>
+                                                        <mn>1</mn>
+                                                    </mrow>
+                                                    <mi>N</mi>
+                                                </munderover>
+                                                <mo stretchy="false">(</mo>
+                                                <msub>
+                                                    <mi>x</mi>
+                                                    <mi>i</mi>
+                                                </msub>
+                                                <mo>−</mo>
+                                                <mi>μ</mi>
+                                                <msup>
+                                                    <mo stretchy="false">)</mo>
+                                                    <mn>2</mn>
+                                                </msup>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\text{Population Variance} =
+                                                \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.8889em; vertical-align: -0.1944em;"></span><span
+                                            class="mord text"><span
+                                                class="mord">Population&nbsp;Variance</span></span><span class="mspace"
+                                            style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                            class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                        class="base"><span class="strut"
+                                            style="height: 3.106em; vertical-align: -1.2777em;"></span><span
+                                            class="mord"><span class="mopen nulldelimiter"></span><span
+                                                class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span
+                                                            class="vlist" style="height: 1.3214em;"><span
+                                                                style="top: -2.314em;"><span class="pstrut"
+                                                                    style="height: 3em;"></span><span class="mord"><span
+                                                                        class="mord mathnormal"
+                                                                        style="margin-right: 0.10903em;">N</span></span></span><span
+                                                                style="top: -3.23em;"><span class="pstrut"
+                                                                    style="height: 3em;"></span><span class="frac-line"
+                                                                    style="border-bottom-width: 0.04em;"></span></span><span
+                                                                style="top: -3.677em;"><span class="pstrut"
+                                                                    style="height: 3em;"></span><span class="mord"><span
+                                                                        class="mord">1</span></span></span></span><span
+                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                            class="vlist"
+                                                            style="height: 0.686em;"><span></span></span></span></span></span><span
+                                                class="mclose nulldelimiter"></span></span><span class="mspace"
+                                            style="margin-right: 0.1667em;"></span><span class="mop op-limits"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 1.8283em;"><span
+                                                            style="top: -1.8723em; margin-left: 0em;"><span
+                                                                class="pstrut" style="height: 3.05em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight">i</span><span
+                                                                        class="mrel mtight">=</span><span
+                                                                        class="mord mtight">1</span></span></span></span><span
+                                                            style="top: -3.05em;"><span class="pstrut"
+                                                                style="height: 3.05em;"></span><span><span
+                                                                    class="mop op-symbol large-op">∑</span></span></span><span
+                                                            style="top: -4.3em; margin-left: 0em;"><span class="pstrut"
+                                                                style="height: 3.05em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight"
+                                                                        style="margin-right: 0.10903em;">N</span></span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 1.2777em;"><span></span></span></span></span></span><span
+                                            class="mopen">(</span><span class="mord"><span
+                                                class="mord mathnormal">x</span><span class="msupsub"><span
+                                                    class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                            style="height: 0.3117em;"><span
+                                                                style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span
+                                                                    class="pstrut" style="height: 2.7em;"></span><span
+                                                                    class="sizing reset-size6 size3 mtight"><span
+                                                                        class="mord mathnormal mtight">i</span></span></span></span><span
+                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                            class="vlist"
+                                                            style="height: 0.15em;"><span></span></span></span></span></span></span><span
+                                            class="mspace" style="margin-right: 0.2222em;"></span><span
+                                            class="mbin">−</span><span class="mspace"
+                                            style="margin-right: 0.2222em;"></span></span><span class="base"><span
+                                            class="strut"
+                                            style="height: 1.1141em; vertical-align: -0.25em;"></span><span
+                                            class="mord mathnormal">μ</span><span class="mclose"><span
+                                                class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span
+                                                        class="vlist-r"><span class="vlist"
+                                                            style="height: 0.8641em;"><span
+                                                                style="top: -3.113em; margin-right: 0.05em;"><span
+                                                                    class="pstrut" style="height: 2.7em;"></span><span
+                                                                    class="sizing reset-size6 size3 mtight"><span
+                                                                        class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>
+                        <span class="katex-display"><span class="katex"><span class="katex-mathml"><math
+                                         display="block">
+                                        <semantics>
+                                            <mrow>
+                                                <mtext>Sample&nbsp;Variance</mtext>
+                                                <mo>=</mo>
+                                                <mfrac>
+                                                    <mn>1</mn>
+                                                    <mrow>
+                                                        <mi>n</mi>
+                                                        <mo>−</mo>
+                                                        <mn>1</mn>
+                                                    </mrow>
+                                                </mfrac>
+                                                <munderover>
+                                                    <mo>∑</mo>
+                                                    <mrow>
+                                                        <mi>i</mi>
+                                                        <mo>=</mo>
+                                                        <mn>1</mn>
+                                                    </mrow>
+                                                    <mi>n</mi>
+                                                </munderover>
+                                                <mo stretchy="false">(</mo>
+                                                <msub>
+                                                    <mi>x</mi>
+                                                    <mi>i</mi>
+                                                </msub>
+                                                <mo>−</mo>
+                                                <mover accent="true">
+                                                    <mi>x</mi>
+                                                    <mo>ˉ</mo>
+                                                </mover>
+                                                <msup>
+                                                    <mo stretchy="false">)</mo>
+                                                    <mn>2</mn>
+                                                </msup>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\text{Sample Variance} =
+                                                \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.8889em; vertical-align: -0.1944em;"></span><span
+                                            class="mord text"><span class="mord">Sample&nbsp;Variance</span></span><span
+                                            class="mspace" style="margin-right: 0.2778em;"></span><span
+                                            class="mrel">=</span><span class="mspace"
+                                            style="margin-right: 0.2778em;"></span></span><span class="base"><span
+                                            class="strut"
+                                            style="height: 2.9291em; vertical-align: -1.2777em;"></span><span
+                                            class="mord"><span class="mopen nulldelimiter"></span><span
+                                                class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span
+                                                            class="vlist" style="height: 1.3214em;"><span
+                                                                style="top: -2.314em;"><span class="pstrut"
+                                                                    style="height: 3em;"></span><span class="mord"><span
+                                                                        class="mord mathnormal">n</span><span
+                                                                        class="mspace"
+                                                                        style="margin-right: 0.2222em;"></span><span
+                                                                        class="mbin">−</span><span class="mspace"
+                                                                        style="margin-right: 0.2222em;"></span><span
+                                                                        class="mord">1</span></span></span><span
+                                                                style="top: -3.23em;"><span class="pstrut"
+                                                                    style="height: 3em;"></span><span class="frac-line"
+                                                                    style="border-bottom-width: 0.04em;"></span></span><span
+                                                                style="top: -3.677em;"><span class="pstrut"
+                                                                    style="height: 3em;"></span><span class="mord"><span
+                                                                        class="mord">1</span></span></span></span><span
+                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                            class="vlist"
+                                                            style="height: 0.7693em;"><span></span></span></span></span></span><span
+                                                class="mclose nulldelimiter"></span></span><span class="mspace"
+                                            style="margin-right: 0.1667em;"></span><span class="mop op-limits"><span
+                                                class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                        style="height: 1.6514em;"><span
+                                                            style="top: -1.8723em; margin-left: 0em;"><span
+                                                                class="pstrut" style="height: 3.05em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight">i</span><span
+                                                                        class="mrel mtight">=</span><span
+                                                                        class="mord mtight">1</span></span></span></span><span
+                                                            style="top: -3.05em;"><span class="pstrut"
+                                                                style="height: 3.05em;"></span><span><span
+                                                                    class="mop op-symbol large-op">∑</span></span></span><span
+                                                            style="top: -4.3em; margin-left: 0em;"><span class="pstrut"
+                                                                style="height: 3.05em;"></span><span
+                                                                class="sizing reset-size6 size3 mtight"><span
+                                                                    class="mord mtight"><span
+                                                                        class="mord mathnormal mtight">n</span></span></span></span></span><span
+                                                        class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                        class="vlist"
+                                                        style="height: 1.2777em;"><span></span></span></span></span></span><span
+                                            class="mopen">(</span><span class="mord"><span
+                                                class="mord mathnormal">x</span><span class="msupsub"><span
+                                                    class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist"
+                                                            style="height: 0.3117em;"><span
+                                                                style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span
+                                                                    class="pstrut" style="height: 2.7em;"></span><span
+                                                                    class="sizing reset-size6 size3 mtight"><span
+                                                                        class="mord mathnormal mtight">i</span></span></span></span><span
+                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                            class="vlist"
+                                                            style="height: 0.15em;"><span></span></span></span></span></span></span><span
+                                            class="mspace" style="margin-right: 0.2222em;"></span><span
+                                            class="mbin">−</span><span class="mspace"
+                                            style="margin-right: 0.2222em;"></span></span><span class="base"><span
+                                            class="strut"
+                                            style="height: 1.1141em; vertical-align: -0.25em;"></span><span
+                                            class="mord accent"><span class="vlist-t"><span class="vlist-r"><span
+                                                        class="vlist" style="height: 0.5678em;"><span
+                                                            style="top: -3em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span
+                                                                class="mord mathnormal">x</span></span><span
+                                                            style="top: -3em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span class="accent-body"
+                                                                style="left: -0.2222em;"><span
+                                                                    class="mord">ˉ</span></span></span></span></span></span></span><span
+                                            class="mclose"><span class="mclose">)</span><span class="msupsub"><span
+                                                    class="vlist-t"><span class="vlist-r"><span class="vlist"
+                                                            style="height: 0.8641em;"><span
+                                                                style="top: -3.113em; margin-right: 0.05em;"><span
+                                                                    class="pstrut" style="height: 2.7em;"></span><span
+                                                                    class="sizing reset-size6 size3 mtight"><span
+                                                                        class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span></span>
+                        <p>where <span class="katex"><span class="katex-mathml"><math
+                                        >
+                                        <semantics>
+                                            <mrow>
+                                                <msub>
+                                                    <mi>x</mi>
+                                                    <mi>i</mi>
+                                                </msub>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">x_i</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.5806em; vertical-align: -0.15em;"></span><span
+                                            class="mord"><span class="mord mathnormal">x</span><span
+                                                class="msupsub"><span class="vlist-t vlist-t2"><span
+                                                        class="vlist-r"><span class="vlist"
+                                                            style="height: 0.3117em;"><span
+                                                                style="top: -2.55em; margin-left: 0em; margin-right: 0.05em;"><span
+                                                                    class="pstrut" style="height: 2.7em;"></span><span
+                                                                    class="sizing reset-size6 size3 mtight"><span
+                                                                        class="mord mathnormal mtight">i</span></span></span></span><span
+                                                            class="vlist-s">​</span></span><span class="vlist-r"><span
+                                                            class="vlist"
+                                                            style="height: 0.15em;"><span></span></span></span></span></span></span></span></span></span>
+                            are individual data points, <span class="katex"><span class="katex-mathml"><math
+                                        >
+                                        <semantics>
+                                            <mrow>
+                                                <mi>μ</mi>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\mu</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.625em; vertical-align: -0.1944em;"></span><span
+                                            class="mord mathnormal">μ</span></span></span></span> is the population
+                            mean, <span class="katex"><span class="katex-mathml"><math
+                                        >
+                                        <semantics>
+                                            <mrow>
+                                                <mover accent="true">
+                                                    <mi>x</mi>
+                                                    <mo>ˉ</mo>
+                                                </mover>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\bar{x}</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut" style="height: 0.5678em;"></span><span
+                                            class="mord accent"><span class="vlist-t"><span class="vlist-r"><span
+                                                        class="vlist" style="height: 0.5678em;"><span
+                                                            style="top: -3em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span
+                                                                class="mord mathnormal">x</span></span><span
+                                                            style="top: -3em;"><span class="pstrut"
+                                                                style="height: 3em;"></span><span class="accent-body"
+                                                                style="left: -0.2222em;"><span
+                                                                    class="mord">ˉ</span></span></span></span></span></span></span></span></span></span>
+                            is the sample mean, <span class="katex"><span class="katex-mathml"><math
+                                        >
+                                        <semantics>
+                                            <mrow>
+                                                <mi>N</mi>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">N</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut" style="height: 0.6833em;"></span><span class="mord mathnormal"
+                                            style="margin-right: 0.10903em;">N</span></span></span></span> is the
+                            population size, and <span class="katex"><span class="katex-mathml"><math
+                                        >
+                                        <semantics>
+                                            <mrow>
+                                                <mi>n</mi>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">n</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut" style="height: 0.4306em;"></span><span
+                                            class="mord mathnormal">n</span></span></span></span> is the sample size.
+                        </p>
+                    </li>
+                    <li>
+                        <p><strong>Standard Deviation</strong>: The square root of the variance, representing the
+                            average distance of each data point from the mean.</p><span class="katex-display"
+                            ><span class="katex"><span class="katex-mathml"><math
+                                         display="block">
+                                        <semantics>
+                                            <mrow>
+                                                <mtext>Population&nbsp;Standard&nbsp;Deviation</mtext>
+                                                <mo>=</mo>
+                                                <msqrt>
+                                                    <mrow>
+                                                        <mfrac>
+                                                            <mn>1</mn>
+                                                            <mi>N</mi>
+                                                        </mfrac>
+                                                        <munderover>
+                                                            <mo>∑</mo>
+                                                            <mrow>
+                                                                <mi>i</mi>
+                                                                <mo>=</mo>
+                                                                <mn>1</mn>
+                                                            </mrow>
+                                                            <mi>N</mi>
+                                                        </munderover>
+                                                        <mo stretchy="false">(</mo>
+                                                        <msub>
+                                                            <mi>x</mi>
+                                                            <mi>i</mi>
+                                                        </msub>
+                                                        <mo>-</mo>
+                                                        <mi>μ</mi>
+                                                        <msup>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mn>2</mn>
+                                                        </msup>
+                                                    </mrow>
+                                                </msqrt>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\text{Population Standard
+                                                Deviation} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}
+                                            </annotation>
+                                        </semantics>
+                                    </math><br>
+                        <span class="katex-display"><span class="katex"><span class="katex-mathml">
+                                    <math  display="block">
+                                        <semantics>
+                                            <mrow>
+                                                <mtext>Sample&nbsp;Standard&nbsp;Deviation</mtext>
+                                                <mo>=</mo>
+                                                <msqrt>
+                                                    <mrow>
+                                                        <mfrac>
+                                                            <mn>1</mn>
+                                                            <mrow>
+                                                                <mi>n</mi>
+                                                                <mo>-</mo>
+                                                                <mn>1</mn>
+                                                            </mrow>
+                                                        </mfrac>
+                                                        <munderover>
+                                                            <mo>∑</mo>
+                                                            <mrow>
+                                                                <mi>i</mi>
+                                                                <mo>=</mo>
+                                                                <mn>1</mn>
+                                                            </mrow>
+                                                            <mi>n</mi>
+                                                        </munderover>
+                                                        <mo stretchy="false">(</mo>
+                                                        <msub>
+                                                            <mi>x</mi>
+                                                            <mi>i</mi>
+                                                        </msub>
+                                                        <mo>−</mo>
+                                                        <mover accent="true">
+                                                            <mi>x</mi>
+                                                            <mo>ˉ</mo>
+                                                        </mover>
+                                                        <msup>
+                                                            <mo stretchy="false">)</mo>
+                                                            <mn>2</mn>
+                                                        </msup>
+                                                    </mrow>
+                                                </msqrt>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\text{Sample Standard Deviation} =
+                                                \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}</annotation>
+                                        </semantics>
+                                    </math>
+                                
+                    </li>
+                    <li>
+                        <p><strong>Interquartile Range (IQR)</strong>: The range between the 25th and 75th percentiles
+                            (Q1 and Q3) of the dataset.</p><span class="katex-display" ><span
+                                class="katex"><span class="katex-mathml"><math
+                                         display="block">
+                                        <semantics>
+                                            <mrow>
+                                                <mtext>IQR</mtext>
+                                                <mo>=</mo>
+                                                <mi>Q</mi>
+                                                <mn>3</mn>
+                                                <mo>−</mo>
+                                                <mi>Q</mi>
+                                                <mn>1</mn>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">\text{IQR} = Q3 - Q1</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.8778em; vertical-align: -0.1944em;"></span><span
+                                            class="mord text"><span class="mord">IQR</span></span><span class="mspace"
+                                            style="margin-right: 0.2778em;"></span><span class="mrel">=</span><span
+                                            class="mspace" style="margin-right: 0.2778em;"></span></span><span
+                                        class="base"><span class="strut"
+                                            style="height: 0.8778em; vertical-align: -0.1944em;"></span><span
+                                            class="mord mathnormal">Q</span><span class="mord">3</span><span
+                                            class="mspace" style="margin-right: 0.2222em;"></span><span
+                                            class="mbin">−</span><span class="mspace"
+                                            style="margin-right: 0.2222em;"></span></span><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.8778em; vertical-align: -0.1944em;"></span><span
+                                            class="mord mathnormal">Q</span><span
+                                            class="mord">1</span></span></span></span></span>
+                        <p>where <span class="katex"><span class="katex-mathml"><math
+                                        >
+                                        <semantics>
+                                            <mrow>
+                                                <mi>Q</mi>
+                                                <mn>1</mn>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">Q1</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.8778em; vertical-align: -0.1944em;"></span><span
+                                            class="mord mathnormal">Q</span><span
+                                            class="mord">1</span></span></span></span> is the 25th percentile (first
+                            quartile) and <span class="katex"><span class="katex-mathml"><math
+                                        >
+                                        <semantics>
+                                            <mrow>
+                                                <mi>Q</mi>
+                                                <mn>3</mn>
+                                            </mrow>
+                                            <annotation encoding="application/x-tex">Q3</annotation>
+                                        </semantics>
+                                    </math></span><span class="katex-html" aria-hidden="true"><span class="base"><span
+                                            class="strut"
+                                            style="height: 0.8778em; vertical-align: -0.1944em;"></span><span
+                                            class="mord mathnormal">Q</span><span
+                                            class="mord">3</span></span></span></span> is the 75th percentile (third
+                            quartile).</p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Math Solver. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
